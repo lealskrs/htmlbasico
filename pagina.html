@@ -11,7 +11,7 @@
 			p {
 				color: pink;
 			}
-			td {
+			tr {
 				color: orange;
 				border: solid 3px gray;
 			}
@@ -29,10 +29,34 @@
 			.listadeprecios {
 				background-color: yellowgreen;
 			}
+			.encabezado {
+				color: red;
+				font-weight: bold;
+				font-size: 20px;
+				background-color: yellow;
+			}
+
+			h1 {
+				font-size: 100px;
+				color:violet;
+				font-weight: bold;
+				background-color: thistle;
+			}
+
+			.boton {
+				color:honeydew;
+				font-weight: bold;
+				background-color: blue;
+				font-size: 25px;
+				padding: 15px;
+				margin-top: 50px;
+
+			}
+			
+			
 		</style>
 	</head>	
 	<body>
-
 
 		<table>
 			<tr>
@@ -55,37 +79,11 @@
 		</ul>
 
 		<img alt="imagen no disponible" src="telefon.png" width="62" />
-		<H3>LISTA DE PRECIOS</H3>
-		<table >
-			<tr>
-				<td><b>imagen</b></td>
-				<td><b>Producto</b></td>
-				<td><b>Cantidad</b></td>
-				<td><b>Precio</b></td>
-			</tr>
-			<tr>
-				<td><img alt="imagen no disponible" src="telefon.png"/></td>
-				<td>Pizzas</td>
-				<td>1</td>
-				<td>$200</td>
-			</tr>
-			<tr>
-				<td><img alt="imagen no disponible" src="telefon.png"/></td>
-				<td>Empanadas</td>
-				<td>1 docena</td>
-				<td>$400</td>
-			</tr>
-			<tr>
-				<td><img alt="imagen no disponible" src="telefon.png"/></td>
-				<td>Milanesas</td>
-				<td>1</td>
-				<td>$200</td>
-			</tr>
-		</table>
+		
 
 
 		<table>
-			<tr>
+			<tr class= "encabezado">
 				<td>Paises</td>
 				<td>Continentes</td>
 			</tr>
@@ -110,14 +108,14 @@
 		</table>
 		<table>
 			<tr>
-				<td>Paises</td>
+				<td class="encabezado">Paises</td>
 				<td>Argentina</td>
 				<td>España</td>
 				<td>Francia</td>
 				<td>Alemania</td>
 			</tr>
 			<tr>
-				<td>Continentes</td>
+				<td class="encabezado">Continentes</td>
 				<td>America</td>
 				<td>Europa</td>
 				<td>Europa</td>
@@ -126,7 +124,9 @@
 
 
 		</table>
-		
+		<br>
+		<br>
+		<a class= "boton" href="precios.html">Lista de Precios</a>
 	</body>
 
 
